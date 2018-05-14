@@ -18,7 +18,7 @@
 }
 .button:hover {
     background-color: #008CBA;
-    color: white;
+    color: black;
 }
 .levels {
 	font-family:"Quicksand";
