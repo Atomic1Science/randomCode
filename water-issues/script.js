@@ -8,7 +8,7 @@ setInterval(function(){
 	};
 	if(water < 0) {
 		water = 0;
-	} else(water > 100) {
+	}; if(water > 100) { // else statements being weird
 		water = 100;
 	};
 	timeInt -= 1;
