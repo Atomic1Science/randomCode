@@ -1,3 +1,3 @@
 document.getElementById("start").onclick = function () {
-	location.href = "activity.html";
+	location.href = "activiti.html";
 };
