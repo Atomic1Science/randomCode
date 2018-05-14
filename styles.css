@@ -6,17 +6,46 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 	cursor: pointer;
 	background-color: white; 
-    color: black; 
+    color: white; 
 	border: 2px solid #008CBA;
 	width:50%;
 	height:50%;
+	margin: 0 auto;
 }
 .button:hover {
     background-color: #008CBA;
     color: white;
+}
+.levels {
+	font-family:"Quicksand";
+	padding: 7.6% 32px;
+	width:95%;
+}
+#water {
+	background-color:rgb(91, 91, 214);
+	border: 2px solid rgb(91, 91, 214);
+}
+#day {
+	background-color:black;
+	border: 2px solid black;
+}
+#money {
+	background-color:rgb(41, 109, 24);
+	border: 2px solid rgb(41, 109, 24);
+}
+#water:hover {
+	background-color:white;
+	border: 2px solid white;
+}
+#day:hover {
+	background-color:white;
+	border: 2px solid white;
+}
+#money:hover {
+	background-color:white;
+	border: 2px solid white;
 }
