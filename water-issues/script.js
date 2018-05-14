@@ -8,6 +8,8 @@ setInterval(function(){
 	};
 	if(water < 0) {
 		water = 0;
+	} else(water > 100) {
+		water = 100;
 	};
 	timeInt -= 1;
 	water -= 20;
