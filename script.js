@@ -6,6 +6,9 @@ setInterval(function(){
 		timeInt = 60;
 		money -= 25;
 	};
+	if(water < 0) {
+		water = 0;
+	};
 	timeInt -= 1;
 	water -= 20;
 	document.getElementById("day").innerHTML = "Day End: " + timeInt.toString();
