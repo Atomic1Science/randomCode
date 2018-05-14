@@ -19,5 +19,5 @@ function payTime () {
 	money += 1;
 };
 function waterGet () {
-	water = 110;
+	water += 25;
 };
